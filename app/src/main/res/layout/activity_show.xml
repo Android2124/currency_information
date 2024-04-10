@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgImage1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/txtSymbol1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symbol"
+            android:textSize="26dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/imgImage1"/>
+
+        <TextView
+            android:id="@+id/txtName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="Name"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtSymbol1"/>
+
+        <TextView
+            android:id="@+id/txtCurrentPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:text="Current Price"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtName1"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
